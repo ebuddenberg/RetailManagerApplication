@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDataManager", "TRMDataManager\TRMDataManager.csproj", "{69EAF81E-E364-4489-9491-5CCA765E820B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TRMDataLayer", "TRMDataLayer\TRMDataLayer.sqlproj", "{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMUI(WPF)", "TRMUI(WPF)\TRMUI(WPF).csproj", "{CF639C5D-71FB-4883-B0FE-DF9AB0D77053}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{69EAF81E-E364-4489-9491-5CCA765E820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69EAF81E-E364-4489-9491-5CCA765E820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69EAF81E-E364-4489-9491-5CCA765E820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE5F1D5-5EF8-4A00-B20D-A34D8E0674CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CF639C5D-71FB-4883-B0FE-DF9AB0D77053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF639C5D-71FB-4883-B0FE-DF9AB0D77053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF639C5D-71FB-4883-B0FE-DF9AB0D77053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF639C5D-71FB-4883-B0FE-DF9AB0D77053}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
